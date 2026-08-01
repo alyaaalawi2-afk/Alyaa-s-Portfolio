@@ -1,0 +1,141 @@
+<html>
+
+<head>
+	
+<body>
+	<title> HOMEPAGE </title>
+
+
+<style>
+
+	body{
+    text-align:center;
+    font-family:Arial, sans-serif;
+    margin-top:100px;
+    background-color:maroon;
+}
+
+
+/* Main Title */
+
+h1{
+    color:pink;
+    font-size:45px;
+    text-shadow:0px 0px 15px rgba(255,192,203,0.8);
+}
+
+
+h2{
+    color:white;
+}
+
+
+
+/* Cute Modern Buttons */
+
+button{
+
+    width:200px;
+    height:65px;
+
+    margin:15px;
+
+    border:none;
+    border-radius:35px;
+
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+
+    color:#5c1a1a;
+
+    font-size:20px;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:all 0.4s ease;
+
+    box-shadow:
+    0 8px 15px rgba(0,0,0,0.3);
+
+}
+
+
+
+/* When mouse touches button */
+
+button:hover{
+
+    transform:
+    translateY(-10px)
+    scale(1.08);
+
+    background:
+    linear-gradient(135deg,#fbc2eb,#a6c1ee);
+
+    color:white;
+
+    box-shadow:
+    0 15px 25px rgba(255,182,193,0.6);
+
+}
+
+
+
+/* When clicked */
+
+button:active{
+
+    transform:scale(0.95);
+
+}
+
+
+
+/* Button container */
+
+.menu{
+
+    margin-top:50px;
+
+}
+    
+</style>
+
+</head>
+	<body>
+
+	<h1><font color="Pink"><b> THE ULTIMATE CENTER FOR MY UNIVERSE </h1></font></b>
+
+    <h2><font color="white"><b>Welcome to My Personal Website</h2></font></b>
+
+    <button onclick="location.href='biodata1.html'">🌸 Biodata</button>
+    <button onclick="location.href='experience.html'">🚀 Experience</button>
+    <button onclick="location.href='education.html'">📚 Education</button>
+    <button onclick="location.href='family.html'">🏡 Family</button>
+    <button onclick="location.href='gallery.html'">📸 Gallery</button>
+
+<br><br><br>
+
+<big><b> Created by <font color="pink"> © 'Alyaa Binti Alawi 2023787923</font></big></b>
+
+<br><font color="white">(Yes, the apostrophe is legally back). All rights reserved.</font>
+
+<br><br><br>
+<font color="white"><small> P.s click anywhere (besides buttons) for cute sound to play in the background :) maybe it can cure lonelinesss </font></small>
+
+
+
+<br><br><br> 
+<audio id="bgMusic" loop>
+    <source src="background.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.body.addEventListener("click", function(){
+    document.getElementById("bgMusic").play();
+}, {once:true});
+</script>
+
+
+</body>
+</html>
